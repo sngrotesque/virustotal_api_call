@@ -38,7 +38,7 @@ def show_results(results :dict):
 
         print(f"{engine_name:<21s}: Category[{category}], Result[{result}].")
 
-file_path = '...'
+file_path = 'A valid file path'
 results = upload_file(file_path)[0]
 
 show_results(results)
